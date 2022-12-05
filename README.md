@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# Phase-3 Project 
+My phase 3 project is a sports cards inventory, which can be used to orgnize ones sports cards. One can create players and cards then toggle between the different types of sports, in addition to being able to delete and update cards. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Functionality of App
+1 - When it first loads youll see a navbar with all players, football, basketball, baseball, and hockey player options.
+2 - Then inside each tab you can add a player to the list of players available or just select a player from the current list 
+3 - Then after youve selected and clicked on a players name, you will see the list of all of that players cards
+4 - Each card listed then has the price, grade, number, signature, and jersey patch information shown. Where you can then either delete that card or update its information.  
+5 - If you opt to delete that card, once you click the button the card will dissapear from the list. 
+6 - If you chose to update the card, the form on the bottom right will be filled in with the cards information to which you can then change any of the values and then save it. 
+7 -  You can also add cards for any player selected, by filling out the add player form and clicking the submit button which will then add that card to the list of that individual players cards 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Usefullness 
+Ive set up the code where it can be used for a multitude of different things, with a few tweaks.  Currently its set up as an inventory organizer for my personal sports cards. But it could also be used to keep track of someone else's own sports cards, as a store inventory, as a sports card finder, or even a collective platform for trading. 
