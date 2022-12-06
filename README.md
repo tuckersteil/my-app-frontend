@@ -12,3 +12,8 @@ My phase 3 project is a sports cards inventory, which can be used to orgnize one
 
 # Usefullness 
 Ive set up the code where it can be used for a multitude of different things, with a few tweaks.  Currently its set up as an inventory organizer for my personal sports cards. But it could also be used to keep track of someone else's own sports cards, as a store inventory, as a sports card finder, or even a collective platform for trading. 
+
+# Commands 
+- this link is for the backend setup "https://github.com/tuckersteil/phase-3-sinatra-react-project".
+- You will need to run "bundle exec rake server" in a new terminal to start the server. 
+- Then on this front end code run npm start, which will then open a window in your browser for you to use app.   
