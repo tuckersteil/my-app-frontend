@@ -8,6 +8,7 @@ import {Route, Switch } from "react-router-dom"
 import Basketball from './Basketball';
 import Baseball from './Baseball';
 import Hockey from './Hockey';
+import Sport from './Sport';
 
 
 function App() {
@@ -19,19 +20,19 @@ function App() {
       <NavBar/>
       <Switch>
         <Route exact path="/baseball">
-          <Baseball/>
+          <Sport sport={"MLB"}/>
         </Route>
 
         <Route exact path="/football">
-          <Football />
+          <Sport sport={"NFL"}/>
         </Route>
 
         <Route exact path="/basketball">
-          <Basketball  />
+          <Sport sport={"NBA"}/>
         </Route>
 
         <Route exact path="/hockey">
-          <Hockey/>
+          <Sport sport={"NHL"}/>
         </Route>
 
         <Route exact path="/">
