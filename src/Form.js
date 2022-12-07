@@ -72,8 +72,8 @@ function fixData(event){
         <div>
             <form onSubmit={handlePlayerSubmit} > 
                 <h3>Add Player Card:</h3>
-                        <label > Player ID:
-                            {player.id}
+                        <label > Player:
+                            {player.name}
                         </label> <br/>
                         <label > Price:
                             <input
@@ -124,8 +124,8 @@ function fixData(event){
             </form>
             <form onSubmit={fixData}> 
                 <h3>Update Player Card:</h3>
-                        <label > Player ID:
-                            {player.id}
+                        <label > Player:
+                            {player.name}
                         </label> <br/>
                         <label > Price:
                             <input

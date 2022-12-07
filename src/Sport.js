@@ -24,7 +24,13 @@ function Sport({sport}){
       useEffect(() => {
         fetch(`http://localhost:9292/people/${sport}`)
           .then((r) => r.json())
-          .then((players) => setPlayers(players), setPlayer(""), setCards([]));
+          .then((players) => setPlayers(players), setPlayer(""), setCards([]), setUpdateInfo({
+            price: '',
+            grade: '',
+            number: '',
+            signed: '',
+            jersey: ''
+        }));
       }, [sport]);
 
       function handleChange(event){
